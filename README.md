@@ -48,7 +48,7 @@ You can also create your custom Toasts with the `custom()` method:
 Toasty.Custom(yourContext, "I'm a custom Toast", yourIconDrawable, textColor, tintColor, duration, withIcon, true).Show();
 ```
 
-There are variants of each method, feel free to explore this library.
+There are variants of each method, feel free to explore this library. Sample can be found inside the solution
 
 Screenshots
 --
