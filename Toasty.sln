@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toasty", "Toasty\Toasty.csproj", "{F656432F-EE8C-46A2-A166-6DBE36ECEBB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndToasty", "Toasty\AndToasty.csproj", "{F656432F-EE8C-46A2-A166-6DBE36ECEBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToastySample", "ToastySample\ToastySample.csproj", "{2F4C9CED-C769-4FBB-975D-5521A251577F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +15,9 @@ Global
 		{F656432F-EE8C-46A2-A166-6DBE36ECEBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F656432F-EE8C-46A2-A166-6DBE36ECEBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F656432F-EE8C-46A2-A166-6DBE36ECEBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4C9CED-C769-4FBB-975D-5521A251577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4C9CED-C769-4FBB-975D-5521A251577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4C9CED-C769-4FBB-975D-5521A251577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4C9CED-C769-4FBB-975D-5521A251577F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

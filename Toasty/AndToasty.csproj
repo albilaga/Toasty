@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F656432F-EE8C-46A2-A166-6DBE36ECEBB1}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AndToasty</RootNamespace>
+    <AssemblyName>AndToasty</AssemblyName>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Toasty.cs" />
+    <Compile Include="ToastyUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\Layout\ToastLayout.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_check_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_clear_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_error_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_info_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\toast_frame.9.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\toast_frame.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_check_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_clear_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_error_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_info_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\toast_frame.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_check_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_clear_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_error_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_info_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_warning_outline_white.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_warning_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\toast_frame.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_check_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_clear_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_error_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_info_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\toast_frame.9.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_check_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_clear_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_error_outline_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_info_outline_white_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Layout\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-ldpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>
