@@ -3,7 +3,7 @@
 	<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/web_hi_res_512.png" width="128">
 </div>
 
-The usual Toast, but with steroids (ported from https://github.com/GrenderG/Toasty) . **(Screenshots at the end of the file.)**
+The usual Toast, but with steroids ( for Xamarin.Android. Ported from https://github.com/GrenderG/Toasty) . **(Screenshots at the end of the file.)**
 
 Add AndToasty to your references in Xamarin.Android project
 
@@ -13,7 +13,7 @@ Usage
 Each method always returns a `Toast` object, so you can customize the Toast much more. **DON'T FORGET THE `Show()` METHOD!**
 
 Add this in your top of the namespace
-```
+``` C#
 using AndToasty;
 ```
 
