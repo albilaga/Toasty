@@ -58,9 +58,9 @@ There are variants of each method, feel free to explore this library. Sample can
 Screenshots
 --
 
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr1.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr2.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr3.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr4.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr5.png" width="250">
-<img src="https://raw.githubusercontent.com/GrenderG/Toasty/master/art/scr6.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Error.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Success.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Info.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Warning.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Normal%20WO%20Icon.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Normal%20W%20Icon.png" width="250">
