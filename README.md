@@ -12,6 +12,11 @@ Usage
 
 Each method always returns a `Toast` object, so you can customize the Toast much more. **DON'T FORGET THE `Show()` METHOD!**
 
+Add this in your top of the namespace
+```
+using AndToasty;
+```
+
 To display an error Toast:
 
 ``` C#
