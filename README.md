@@ -62,5 +62,5 @@ Screenshots
 <img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Success.png" width="250">
 <img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Info.png" width="250">
 <img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Warning.png" width="250">
-<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Normal%20WO%20Icon.png" width="250">
+<img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Normal%20WO%20icon.png" width="250">
 <img src="https://raw.githubusercontent.com/albilaga/Toasty/master/Screenshots/Normal%20W%20Icon.png" width="250">
