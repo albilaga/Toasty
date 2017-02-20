@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ActivityMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +17,10 @@
         android:layout_alignParentStart="true"
         android:id="@+id/ButtonErrorToast"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="#D50000"
+        android:layout_marginBottom="8dp" />
     <Button
         android:text="SUCCESS TOAST"
         android:layout_width="wrap_content"
@@ -27,7 +30,10 @@
         android:layout_alignParentStart="true"
         android:id="@+id/ButtonSuccessToast"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="#388E3C"
+        android:layout_marginBottom="8dp" />
     <Button
         android:text="INFO TOAST"
         android:layout_width="wrap_content"
@@ -37,7 +43,10 @@
         android:layout_alignParentStart="true"
         android:id="@+id/ButtonInfoToast"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="#3F51B5"
+        android:layout_marginBottom="8dp" />
     <Button
         android:text="WARNING TOAST"
         android:layout_width="wrap_content"
@@ -47,7 +56,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/ButtonWarningToast" />
+        android:id="@+id/ButtonWarningToast"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="#FFA900"
+        android:layout_marginBottom="8dp" />
     <Button
         android:text="NORMAL TOAST (WITHOUT ICON)"
         android:layout_width="wrap_content"
@@ -57,7 +69,10 @@
         android:layout_alignParentStart="true"
         android:id="@+id/ButtonNormalToastWithoutIcon"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@color/md_grey_700"
+        android:layout_marginBottom="8dp" />
     <Button
         android:text="NORMAL TOAST (WITH ICON)"
         android:layout_width="wrap_content"
@@ -67,5 +82,7 @@
         android:layout_alignParentStart="true"
         android:id="@+id/ButtonNormalToastWithIcon"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@color/md_grey_700" />
 </RelativeLayout>

@@ -100,6 +100,8 @@
     <AndroidResource Include="Resources\values\Colors.xml" />
     <AndroidResource Include="Resources\values\Dimens.xml" />
     <AndroidResource Include="Resources\values-w820dp\Dimens.xml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\values-v21\Styles.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -109,6 +111,7 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
     <Folder Include="Resources\values-w820dp\" />
+    <Folder Include="Resources\values-v21\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Toasty\AndToasty.csproj">

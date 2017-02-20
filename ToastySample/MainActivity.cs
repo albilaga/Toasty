@@ -1,12 +1,13 @@
 ﻿using Android.App;
 using Android.OS;
+using Android.Support.V7.App;
 using Android.Widget;
 using AndToasty;
 
 namespace ToastySample
 {
 	[Activity(Label = "Toasty Sample", MainLauncher = true, Icon = "@mipmap/icon")]
-	public class MainActivity : Activity
+	public class MainActivity : AppCompatActivity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
