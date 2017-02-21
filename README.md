@@ -25,7 +25,7 @@ Toasty.Error(yourContext, "This is an error toast.").Show();
 To display a success Toast:
 
 ``` C#
-Toasty.Success(yourContext, "Success!").show();
+Toasty.Success(yourContext, "Success!").Show();
 ```
 To display an info Toast:
 
